@@ -47,26 +47,29 @@ The evaluation metric for this contest is the categorization accuracy, or the pr
 |                                                            RUN CODE                                                                                |
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
+For Windows Users
 
 1.py -m venv venv (if you are using Windows PC)
 
-.\venv\Scripts\activate
+2.\venv\Scripts\activate
 
-py -m pip install --upgrade pip
+3.py -m pip install --upgrade pip
 
-pip install jupyter numpy pandas seaborn matplotlib scikit-learn tensorflow
+4.pip install jupyter numpy pandas seaborn matplotlib scikit-learn tensorflow
 
-jupyter-notebook (to open Jupyter)
-
-
-2.python3 -m venv venv (if you are using Mac or Linux)
+5.jupyter-notebook (to open Jupyter)
 
 
-source ./venv/bin/activate
+For  Mac or Linux Users
 
-python3 -m pip install --upgrade pip
+1..python3 -m venv venv (if you are using Mac or Linux)
 
-pip install jupyter numpy pandas seaborn matplotlib scikit-learn tensorflow
 
-jupyter-notebook (to open Jupyter)
+2.source ./venv/bin/activate
+
+3.python3 -m pip install --upgrade pip
+
+4.pip install jupyter numpy pandas seaborn matplotlib scikit-learn tensorflow
+
+5.jupyter-notebook (to open Jupyter)
 
